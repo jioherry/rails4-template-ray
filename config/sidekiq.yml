@@ -1,0 +1,13 @@
+---
+:verbose: false
+:concurrency: 2
+:queues:
+  - [default, 1]
+  - [rollbar, 1]
+:limits:
+  default: 1
+  rollbar: 1
+staging:
+  :concurrency: 2
+production:
+  :concurrency: 2
